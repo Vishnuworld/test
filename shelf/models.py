@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 
-
+#test line
 
 class Book(models.Model):
     book_name = models.CharField(max_length=100)
