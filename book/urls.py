@@ -21,7 +21,7 @@ from rest_framework_swagger.views import get_swagger_view
 from rest_framework.authtoken.views import obtain_auth_token
 from shelf.views import some_view, HelloView, login
 
-
+#####
 schema_view = get_swagger_view(title='Book_Producer')
 
 urlpatterns = [
