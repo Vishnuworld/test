@@ -2,11 +2,9 @@ from django.db import models
 
 # Create your models here.
 
-#test line 123
-
 class Book(models.Model):
     book_name = models.CharField(max_length=100)
-    author_name = models.CharField(max_length=101)
+    author_name = models.CharField(max_length=100)
     book_publication = models.CharField(max_length=100)
     book_qty = models.IntegerField()
     book_price = models.FloatField()
